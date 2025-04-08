@@ -1,12 +1,24 @@
-body {
-    font-family: 'Segoe UI', sans-serif;
-  }
-  
-  h1, h2 {
-    font-weight: 600;
-  }
-  
-  section {
-    scroll-margin-top: 60px;
-  }
-  
+.hero {
+    background-color: #f8f9fa;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+section {
+    min-height: 50vh;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
